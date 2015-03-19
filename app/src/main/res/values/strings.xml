@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rss News App</string>
+    <string name="rss_text">http://vietnamnet.vn/rss/home.rss</string>
+    <string name="rss_trangthai"/>
+    <string name="rss_taitrang">Download</string>
+    <string name="title">Title</string>
+    <string name="descreption">Descreption</string>
+
+</resources>

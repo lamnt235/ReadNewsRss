@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:padding="10dip"
+	android:orientation="vertical">
+
+	<EditText android:id="@+id/text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="12sp"
+		android:autoText="false" 
+		android:capitalize="none"
+		android:text="@string/rss_text" />
+		
+	<Button android:id="@+id/taitrang" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/rss_taitrang" />
+    <TextView
+           android:id="@+id/trangthai"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/rss_trangthai"
+           android:autoText="false"/>
+		
+	<ListView android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:drawSelectorOnTop="false"/>
+	
+</LinearLayout>
